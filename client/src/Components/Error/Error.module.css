@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Roboto+Condensed:wght@300&display=swap');
+.warning{
+    width: 50%;
+    height: 5%;
+    background : #FF7777;
+    border-radius: 3px;
+    margin:0 auto;
+    margin-top: 20px;
+    padding: 10px;
+}
+.message{
+    text-align: center;
+    color:#fff;
+    font-family: 'Roboto Condensed', sans-serif;
+    align-items: center;
+    padding: 5px;
+    font-size: 20px;
+}

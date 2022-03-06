@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Roboto+Condensed:wght@300&display=swap');
+.container{
+    background : #fff;
+    border: 1px solid rgba(0,0,0,0.1);
+    width: 50%;
+    margin: 0 auto;
+    height: 80vh;
+    border-radius: 3px;
+}
+.fileInput{
+    display: block;
+    margin: 0 auto;
+    height: 20%;
+    margin-top: 50px;
+    padding:20px;
+    text-transform: uppercase;
+    font-family: 'Hubballi', cursive;
+    font-size: 15px;
+
+}
+
+.wrapper{
+    /* border: 1px solid rgba(0,0,0,0.1);   */
+    height: 80%;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 3px;
+    max-height:150vh;
+    overflow: scroll;
+    background-color:#f9f9f9;
+    border: 1px solid rgba(0,0,0,0.1)
+}
+
+h1{
+    text-align:center;
+    text-transform: uppercase;
+}
+.row{
+    border: 1px solid rgba(0,0,0,0.2);
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 0px 0px rgba(0,0,0,0.1);
+    background: #fff;
+}
+.row:first-child{
+    margin-top: 20px;
+}
+.control{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.acBtn{
+    padding: 10px 20px;
+    margin-left: 5px;
+    border-radius: 3px;
+    background: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+.acBtn:first-child{
+    border: 1px solid #5463FF;
+    color:#5463FF;
+}
+.acBtn:first-child:hover{
+    background:#5463FF;
+    color: #fff;
+}
+.acBtn:nth-child(2){
+    border: 1px solid #FC4F4F;
+    color:#FC4F4F
+}
+.acBtn:nth-child(2):hover{
+    background:#FC4F4F;
+    color:#fff
+}
+.fileIcon{
+    padding: 10px 15px;;
+    font-size: 20px;
+    display: block;
+    margin-right: 10px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 3px;
+}
+.fileTitle{
+    display: flex;
+    align-items: center;
+    font-family:'Hubballi', cursive;
+    font-size: 18px;
+    width: 70%;
+
+}
+.btn:hover{
+    background: #4f4faa;
+}
+.code{
+    color:rgba(0,0,0,0.2);
+    margin-left: 5px;
+    display: block;
+    width: 100%;
+}
+.fileName{
+    width: 90%;
+}
