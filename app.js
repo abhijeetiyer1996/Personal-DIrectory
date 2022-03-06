@@ -14,6 +14,11 @@ app.use('/register', registerRoute);
 app.use('/login', loginRoute);
 app.use('/uploads', fileRoute);
 
+if(process.env.NODE_ENV === 'production')
+{
+    app.use(express.static("client/build"));
+}
+
 app.listen(PORT,()=>{
     console.log('server up and running')
 })
