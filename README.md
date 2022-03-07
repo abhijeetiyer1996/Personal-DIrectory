@@ -1,4 +1,4 @@
-# Personal-Directory# PERSONAL DIRECTORY
+# PERSONAL DIRECTORY
 
 ##### Development platform execution
 - Root directory Ternminal commands
@@ -14,7 +14,7 @@ cd ../ && npm run system
 | Plugin | README |
 | ------ | ------ |
 | Node.js| [Docs ][node.js] |
-| React.js| [Docs] [react.js]
+| React.js| [Docs][react.js] |
 
 ## Dependencies  (Node js)
 | Package | Documentation
